@@ -1,0 +1,123 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 59, 88, 0.9822129535407913) 0%,
+    rgba(59, 103, 238, 1) 100%
+  );
+}
+
+form {
+  padding-bottom: 10px;
+}
+
+#main {
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 5%;
+  box-shadow: 10px 10px 30px 10px;
+  padding: 30px;
+  background-color: lightgray;
+}
+
+.input-text-group {
+  display: flex;
+  align-items: baseline;
+}
+
+.input-text-group > input {
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+#title {
+  color: #131313;
+  letter-spacing: 0.15em;
+  text-shadow: 1px 0.5px azure;
+}
+
+#description {
+  font-size: 22px;
+}
+
+#survey-form {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+#name {
+  width: 60%;
+  color: #131313;
+}
+
+#name:hover {
+  box-shadow: 0px 4px 10px 5px rgba(105, 100, 105, 1);
+}
+
+#email {
+  width: 60%;
+}
+
+#email:hover {
+  box-shadow: 0px 4px 10px 5px rgba(105, 100, 105, 1);
+}
+
+#number {
+  width: 60%;
+}
+
+#number:hover {
+  box-shadow: 0px 4px 10px 5px rgba(105, 100, 105, 1);
+}
+
+#dropdown {
+  border: 1px;
+  padding: 5px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  width: 65%;
+  border-style: outset;
+}
+
+#dropdown:hover {
+  border-style: ridge;
+}
+
+#label-dropdown {
+  display: flex;
+  flex-direction: row;
+}
+
+#comments {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#radio-group {
+  margin-bottom: 10px;
+}
+
+#checkbox-group {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 10px;
+}
+
+#submit {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 10px;
+  color: #131313;
+  background-color: white;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+#submit:hover {
+  background-color: #2b76ee;
+  color: white;
+}
